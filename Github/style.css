@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f6f8fa;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.github-logo {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.github-head {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-label {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-box input:focus {
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(3, 102, 214, 0.5);
+}
+
+.link {
+    font-size: 0.9rem;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ea44f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #22863a;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #586069;
+}
+
+.info .link {
+    font-weight: bold;
+}
+
+.bottom {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #586069;
+}
+
+.bottom a {
+    color: #0366d6;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.date, .day {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 20px auto;
+    background: #444;
+}
+
+.hand {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: white;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: transform 0.05s cubic-bezier(0.4, 2.3, 0.3, 1);
+}
+
+
+.hour {
+    height: 4px;
+    width: 35%;
+    background: #ff6347;
+}
+
+.min {
+    height: 3px;
+    width: 45%;
+    background: #87ceeb;
+}
+
+.sec {
+    height: 2px;
+    width: 50%;
+    background: #32cd32;
+}
+
+.letter {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    transform: rotate(calc(var(--i) * 30deg)) translate(120px) rotate(calc(var(--i) * -30deg));
+}
